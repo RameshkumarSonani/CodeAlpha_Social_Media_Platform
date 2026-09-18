@@ -1,7 +1,5 @@
 # =========================
-
 # React / Vite
-
 # =========================
 
 node_modules/
@@ -15,13 +13,12 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-# =========================
 
+# =========================
 # Django / Python
-
 # =========================
 
-**pycache**/
+__pycache__/
 *.py[cod]
 *$py.class
 
@@ -39,28 +36,25 @@ htmlcov/
 
 *.log
 
+
 # =========================
-
 # Django Database
-
 # =========================
 
 db.sqlite3
 
+
 # =========================
-
 # Environment Variables
-
 # =========================
 
 .env
 .env.*
 !.env.example
 
+
 # =========================
-
 # IDE / Editor
-
 # =========================
 
 .vscode/
@@ -76,10 +70,9 @@ db.sqlite3
 *.sln
 *.sw?
 
+
 # =========================
-
 # OS Files
-
 # =========================
 
 Thumbs.db
